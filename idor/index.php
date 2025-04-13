@@ -1,6 +1,6 @@
 <?php
 try {
-    $pdo = new PDO('mysql:host=localhost;dbname=myOWASP', 'root', '');
+    $pdo = new PDO('mysql:host=sql.freedb.tech;dbname=users', 'freedb_root_owasp', 'rtWHhdnSN!h!7EF');
     $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 } catch (PDOException $e) {
     die('Connection failed');
